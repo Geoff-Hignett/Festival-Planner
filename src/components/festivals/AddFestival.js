@@ -59,6 +59,8 @@ class AddFestival extends Component {
       website: '',
       errors: {}
     });
+
+    this.props.history.push('/');
   };
 
   onChange = e => {

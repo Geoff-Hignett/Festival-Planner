@@ -10,6 +10,9 @@ class Festivals extends Component {
           const { festivals } = value;
           return (
             <React.Fragment>
+              <h1 className="display-4 mb-2">
+                <span className="text-danger">Festival</span> List
+              </h1>
               {festivals.map(festival => (
                 <Festival key={festival.id} festival={festival} />
               ))}
